@@ -1,0 +1,32 @@
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  list-style: none;
+  /* margin: 0px;
+  padding: 0px; */
+  font-family: Roboto;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  height: fit-content;
+  background-color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 10px 25px 10px 25px;
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  border-radius: 10px;
+}

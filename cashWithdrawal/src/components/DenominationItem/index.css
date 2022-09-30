@@ -1,0 +1,18 @@
+button {
+  color: #d4d2db;
+  width: 180px;
+  height: 40px;
+  background-color: #382f5a;
+  outline: none;
+  border: 1px solid #c4c4c4;
+  margin: 5px;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

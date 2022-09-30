@@ -1,0 +1,62 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-picture {
+  display: block;
+  padding: 30px;
+  margin: 25px;
+  font-size: 18px;
+  color: white;
+  border-radius: 300%;
+  background-color: blue;
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-details-comment {
+  display: flex;
+}
+
+.like-delete {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+button {
+  outline: none;
+  border-width: 0px;
+  border-width: 0px;
+  background-color: transparent;
+}

@@ -1,0 +1,23 @@
+.profile-box {
+  background-color: greenyellow;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 60%;
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+
+p {
+  margin: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.password-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+}

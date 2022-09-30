@@ -1,0 +1,40 @@
+.job-item-details-container {
+  padding: 10px;
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+}
+
+.description-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-link {
+  color: blue;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  /* margin-right: 30px; */
+  flex-grow: 1;
+  margin: 10px 10px 10px 0;
+}
+
+.skill-logo {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.life-at-compnay-image {
+  width: 100%;
+}

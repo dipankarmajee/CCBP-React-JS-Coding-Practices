@@ -1,0 +1,11 @@
+.tab-button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-width: 0px;
+  margin: 0% 5% 5% 5%;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Roboto;
+}

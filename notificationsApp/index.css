@@ -1,0 +1,66 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  margin: 0px 15px 0px 5px;
+}
+
+.span-text {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #0b69ff;
+  padding: 5px 80px 5px 5px;
+  margin: 5px;
+  height: 40px;
+  width: 300px;
+}
+
+.success-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #2dca73;
+  padding: 5px 80px 5px 5px;
+  margin: 5px;
+  height: 40px;
+  width: 300px;
+}
+
+.warning-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #ffb800;
+  padding: 5px 80px 5px 5px;
+  margin: 5px;
+  height: 40px;
+  width: 300px;
+}
+
+.danger-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #ff0b37;
+  padding: 5px 80px 5px 5px;
+  margin: 5px;
+  height: 40px;
+  width: 300px;
+}

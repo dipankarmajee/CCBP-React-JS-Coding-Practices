@@ -1,0 +1,50 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  text-align: center;
+}
+p {
+  color: #334155;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  font-family: Roboto;
+}
+.toss-image {
+  height: 150px;
+}
+
+h1 {
+  color: #a35200;
+}
+
+.heads-or-tails {
+  color: #334155;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  background-color: #f9d423;
+  padding: 10px 25px 10px 25px;
+  border-radius: 8px;
+  color: #a35200;
+  font-weight: 600;
+  font-size: 14px;
+}

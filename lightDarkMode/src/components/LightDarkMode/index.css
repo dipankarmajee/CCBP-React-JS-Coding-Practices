@@ -1,0 +1,35 @@
+.dark-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.light-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.heading-light {
+  color: white;
+}
+
+.heading-dark {
+  color: black;
+}

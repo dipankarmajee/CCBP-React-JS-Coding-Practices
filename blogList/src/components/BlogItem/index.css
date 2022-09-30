@@ -1,0 +1,14 @@
+.blog-item-title {
+  font-size: 20px;
+  color: #12022f;
+}
+
+.blog-item-description {
+  font-size: 16px;
+  color: #616e7c;
+}
+
+.blog-item-published-date {
+  font-size: 14px;
+  color: #616e7c;
+}

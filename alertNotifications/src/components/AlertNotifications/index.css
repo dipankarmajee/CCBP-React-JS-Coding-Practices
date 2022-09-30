@@ -1,0 +1,38 @@
+.alert-notifications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.notificaton-container {
+  display: flex;
+  padding: 20px;
+  border: 2px solid #64748b;
+  border-radius: 8px;
+  width: 60%;
+  margin: 10px 0 10px 0;
+}
+
+p {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}

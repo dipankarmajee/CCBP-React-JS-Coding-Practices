@@ -1,0 +1,32 @@
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+  background-color: #64748b;
+  font-family: Roboto;
+  color: white;
+}
+
+.event-item-image {
+  width: 70%;
+}
+
+p {
+  margin: 2%;
+}
+.event-name {
+  font-size: 20px;
+}
+
+.event-location {
+  font-size: 16px;
+}

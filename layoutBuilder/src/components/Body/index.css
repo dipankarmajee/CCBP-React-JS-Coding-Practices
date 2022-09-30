@@ -1,0 +1,23 @@
+.body-container {
+  display: flex;
+}
+
+.content-items {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.ad {
+  border: 1px solid gray;
+  padding: 30px;
+}

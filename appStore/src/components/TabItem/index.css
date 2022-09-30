@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+
+/* .tab-item-list {
+  margin: 0px;
+} */
+
+button {
+  background-color: transparent;
+  border-width: 0px;
+  color: #7b8794;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.active-tab {
+  color: #2563eb;
+}

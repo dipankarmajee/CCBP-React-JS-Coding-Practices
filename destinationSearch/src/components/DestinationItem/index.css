@@ -1,0 +1,18 @@
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+}
+
+.img-name {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+}

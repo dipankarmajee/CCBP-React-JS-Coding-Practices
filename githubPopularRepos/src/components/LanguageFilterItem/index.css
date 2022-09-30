@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+
+.button {
+  font-family: Roboto;
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+}
+
+.active-button {
+  border: 1px solid #0284c7;
+  border-radius: 16px;
+  color: #0284c7;
+}

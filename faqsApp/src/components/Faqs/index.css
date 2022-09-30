@@ -1,0 +1,40 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 10%;
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 80%;
+  padding: 5%;
+  border-radius: 8px;
+  font-family: Roboto;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #d7dae6;
+  border-radius: 20px;
+  margin: 3%;
+  padding: 3%;
+}
+
+.heading {
+  color: #cb8805;
+  font-size: 32px;
+  font-weight: 600;
+}

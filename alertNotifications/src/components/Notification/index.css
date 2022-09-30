@@ -1,0 +1,22 @@
+.alert-main-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.alert-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.alert-icon {
+  margin: 5px 20px 0 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.alert-text {
+  flex-direction: column;
+}

@@ -1,0 +1,54 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  font-family: Roboto;
+  color: White;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: #dd1264;
+  background-color: white;
+  height: 30px;
+  width: 150px;
+  margin: 20px;
+  font-family: Roboto;
+  border-radius: 6px;
+  border-width: 0px;
+  font-weight: 600;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  color: black;
+  width: 180px;
+  height: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px;
+  border-radius: 8px;
+}

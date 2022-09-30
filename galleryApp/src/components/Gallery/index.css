@@ -1,0 +1,48 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.image {
+  width: 90vw;
+  max-width: fit-content;
+  height: fit-content;
+}
+
+@media (min-width: 768px) {
+  .image {
+    height: 450px;
+  }
+}
+
+h1 {
+  color: #1e293b;
+  font-size: 36px;
+}
+
+p {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

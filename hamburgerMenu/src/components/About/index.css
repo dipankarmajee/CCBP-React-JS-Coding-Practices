@@ -1,0 +1,10 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-sm {
+  width: 30%;
+}

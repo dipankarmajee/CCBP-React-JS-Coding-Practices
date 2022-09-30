@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 0 20px;
+  width: 100%;
+  height: 50px;
+  font-family: Roboto;
+}
+
+.website-logo {
+  height: 100%;
+}
+
+.tag-links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  font-weight: 600;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.theme-icon-button {
+  outline: none;
+  cursor: pointer;
+  border-width: 0;
+  background-color: transparent;
+}
+
+.theme-icon {
+  height: 100%;
+}

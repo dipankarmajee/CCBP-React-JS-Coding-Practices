@@ -1,0 +1,18 @@
+.bg-container {
+  background-color: green;
+  width: 100vw;
+}
+
+.prime-video-image {
+  width: 100vw;
+  height: fit-content;
+}
+
+.movie-container {
+  padding: 50px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}

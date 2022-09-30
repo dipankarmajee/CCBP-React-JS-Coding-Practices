@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.events-bg-container {
+  display: flex;
+  align-items: center;
+}
+
+.events-event-item-container {
+  background-color: #64748b;
+  height: 100vh;
+  width: 60%;
+  padding: 2%;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.active-event-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}

@@ -1,0 +1,36 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-info {
+  display: flex;
+}
+
+.timer-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  background-color: white;
+  border-radius: 80px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Lobster;
+  font-size: 42px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.button-container {
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.popular-repo-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

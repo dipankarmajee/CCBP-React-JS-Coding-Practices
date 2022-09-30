@@ -1,0 +1,12 @@
+.configuration-controller-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  padding: 20px;
+  font-family: Roboto;
+  color: white;
+}
+
+label {
+  margin-bottom: 10px;
+}

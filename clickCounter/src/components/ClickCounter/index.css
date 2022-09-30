@@ -1,0 +1,35 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  text-align: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 40px;
+  color: #2d3a35;
+}
+
+.span-element {
+  font-size: 40px;
+  color: #c20a72;
+}
+
+.description {
+  font-size: 16px;
+  color: #2d3a35;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}

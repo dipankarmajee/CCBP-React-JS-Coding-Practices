@@ -1,0 +1,11 @@
+.products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.products-image {
+  max-width: 40%;
+  width: 200px;
+}

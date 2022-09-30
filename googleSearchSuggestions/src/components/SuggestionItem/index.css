@@ -1,0 +1,17 @@
+.suggestion-list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestion {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,37 @@
+.popular-repo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+.repo-image {
+  width: 120px;
+}
+
+.repo-name {
+  color: #e73959;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Roboto;
+  width: 100%;
+  margin: 8px;
+  font-weight: 500;
+}
+
+.icon-image {
+  width: 25px;
+  margin-right: 10px;
+}

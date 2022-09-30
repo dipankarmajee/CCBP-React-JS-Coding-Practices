@@ -1,0 +1,138 @@
+.jobs-container {
+  padding: 10px;
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+}
+
+.search-input {
+  display: flex;
+  color: white;
+  outline: none;
+  margin: 20px 0 20px 0;
+  background-color: black;
+  border: 2px solid #2c364c;
+
+  height: 40px;
+  min-width: 90%;
+  width: 250px;
+  border-radius: 4px;
+  /* padding: 5px; */
+}
+
+.search-input-bar {
+  background-color: black;
+  min-width: fit-content;
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-weight: 500;
+  flex-grow: 1;
+  outline: none;
+  border-width: 0;
+}
+
+.search-button {
+  background-color: #202020;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  padding: 0px 20px 0px 20px;
+}
+
+.search-icon {
+  height: fit-content;
+  font-size: 16px;
+  color: #f1f5f9;
+}
+
+.profile-details {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 10px;
+  background-size: cover;
+  border-radius: 30px;
+  height: fit-content;
+  color: black;
+}
+
+.profile-name {
+  font-size: 18px;
+  color: #6366f1;
+}
+
+.profile-description {
+  font-size: 14px;
+  color: #2c364c;
+  font-family: Roboto;
+}
+
+.hr-line {
+  margin: 20px 0 20px 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.type-of-employment-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Roboto;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+
+.type-of-employment-input {
+  width: fit-content;
+  margin-right: 15px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar-lg {
+  display: none;
+}
+
+.search-bar-sm {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .jobs-container {
+    display: flex;
+  }
+
+  .profile-details-lg {
+    margin: 20px 30px 0 50px;
+    width: 30%;
+  }
+
+  .job-card-container {
+    margin: 10px 50px 0 0;
+  }
+
+  .search-bar-sm {
+    display: none;
+  }
+  .search-bar-lg {
+    display: block;
+  }
+}

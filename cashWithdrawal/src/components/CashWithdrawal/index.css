@@ -1,0 +1,92 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  padding: 10px;
+}
+
+.card {
+  background-color: #150b3e;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.name-container {
+  display: flex;
+  width: fit-content;
+}
+
+.profile-pic {
+  padding: 30px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 120px;
+  font-size: 16px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  color: #c7d2fe;
+  margin-left: 10px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.balance-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 36px;
+  width: fit-content;
+  margin: 0px;
+}
+
+.balance-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #585076;
+  text-align: right;
+  margin: 0px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 24px;
+  width: fit-content;
+  margin: 0px;
+}
+
+.choose-sum {
+  font-size: 14px;
+  font-weight: 500;
+  color: #585076;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}

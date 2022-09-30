@@ -1,0 +1,32 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: #161625;
+  padding: 20px;
+  font-family: Roboto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 45px;
+  color: #cbd5e1;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: #2cc6c6;
+}
+
+.title {
+  color: #cbd5e1;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

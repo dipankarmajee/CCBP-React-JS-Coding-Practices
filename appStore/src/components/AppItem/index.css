@@ -1,0 +1,16 @@
+li {
+  list-style: none;
+}
+
+.app-item {
+  padding: 30px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 10px;
+  font-family: Bree Serif;
+  text-align: center;
+}
+
+.app-image {
+  width: 100px;
+}

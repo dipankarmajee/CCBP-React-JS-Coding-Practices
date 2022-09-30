@@ -1,0 +1,45 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.google-img {
+  width: 50vw;
+  margin: 15px;
+}
+
+.search-card {
+  width: 50vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+}
+
+.google-search-container {
+  display: flex;
+  font-family: Roboto;
+}
+
+.search-icon {
+  width: 40px;
+}
+
+.search-bar {
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  outline: none;
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul {
+  margin: 0px;
+  padding: 10px;
+}
